@@ -1,0 +1,35 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "noEmit": true,
+        "target": "ES6",
+        "module": "commonjs",
+        "esModuleInterop": true,
+    },
+    "exclude": [
+        "**/node_modules",
+        "node_modules",
+        "node_modules/**",
+        "typo3_src",
+        "typo3_src/**",
+        "fileadmin",
+        "fileadmin/**",
+        "typo3temp",
+        "typo3temp/**",
+        "uploads",
+        "uploads/**"
+    ],
+    "include": [
+        "Build/typescript/**/*.ts",
+    ],
+    "filesGlob": [
+        "Build/typescript/**/*.ts",
+    ],
+    "typeAcquisition": {
+        "enable": true,
+        "include": [
+            "bootstrap",
+            "jquery" //list libraries you are using here
+        ]
+    }
+}

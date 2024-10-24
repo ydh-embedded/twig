@@ -1,0 +1,10 @@
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} \.(html|css|js)$ [NC]
+RewriteRule ^ - [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*[^/])$ /$1/ [L]
+
+RewriteRule !index\.php - [C]
+RewriteRule ^(.*)$ /index.php?cl=$1 [QSA,L,B]

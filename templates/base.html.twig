@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="/css/styles.css">
+
+		<style></style>
+		<title>Taubentierschutz</title>
+	</head>
+	<body id="top">
+		{% include "header.html.twig" %}
+
+
+		<div class="container">
+			<div class="row">
+				<div class="col-3">
+					nav
+				</div>
+				<div class="col-9"> {% block content %}{% endblock %}
+					</div>
+				</div>
+			</div>
+        </div>
+
+    </body>
+</html>

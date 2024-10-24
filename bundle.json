@@ -1,0 +1,9 @@
+{
+    "modeSuffix": "",
+    "bundles": [
+        {
+            "source": "./Build/scss/styles.scss",
+            "dest" : "./public/css/styles.css"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+
+
+.grid-item {
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 55px; /* Space between rows */
+}
+.grid-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Hover effect for navigation links */
+.jw-menu-link {
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+    padding: 10px 15px; /* Add some padding for better click area */
+    border-radius: 5px; /* Rounded corners */
+}
+.jw-menu-link:hover {
+    background-color: #96f3dc; /* Change background color on hover */
+    color: white; /* Change text color on hover */
+}
