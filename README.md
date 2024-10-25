@@ -18,6 +18,7 @@
 ├── [ 165]  bundle.json
 ├── [ 198]  composer.json
 ├── [ 85K]  composer.lock
+├── [ 12K]  node_modules            [wurde entfernt "node_module wird mit npm install wieder erzeugt"]
 ├── [ 642]  package.json
 ├── [127K]  package-lock.json
 ├── [4.0K]  public
