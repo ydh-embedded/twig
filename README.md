@@ -1,7 +1,10 @@
 
 # Struktur für ein Twig / Symfoni Projekt
-
+```bs
 [ydh@C01127 twig]$ tree -h
+
+1051 directories, 7484 files
+
 [4.0K]  .
 ├── [4.0K]  Build
 │   ├── [4.0K]  Bundler
@@ -8539,3 +8542,6 @@
     └── [2.1K]  tierschutzarbeit.html
 
 1051 directories, 7484 files
+
+
+```
