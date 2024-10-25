@@ -1,8 +1,6 @@
-```bs
-
 [ydh@C01127 twig]$ tree -h
 
-264 directories, 1557 files
+264 directories, 1528 files
 
 [4.0K]  .
 ├── [4.0K]  Build
@@ -20,7 +18,6 @@
 ├── [ 165]  bundle.json
 ├── [ 198]  composer.json
 ├── [ 85K]  composer.lock
-├── [ 12K]  node_modules            ["node_module wird mit npm install wieder erzeugt"]
 ├── [ 642]  package.json
 ├── [127K]  package-lock.json
 ├── [4.0K]  public
@@ -28,7 +25,7 @@
 │   │   └── [744K]  styles.css
 │   ├── [3.1K]  index.html
 │   └── [1013]  index.php
-├── [511K]  README.md
+├── [120K]  README.md
 ├── [4.0K]  templates
 │   ├── [ 108]  404.html.twig
 │   ├── [ 222]  bar.html.twig
@@ -39,7 +36,7 @@
 │   ├── [  23]  header.html.twig
 │   └── [ 274]  start.html.twig
 ├── [ 739]  tsconfig.json
-├── [4.0K]  vendor                                  [kann mit 'composer install' erzeugt werden]
+├── [4.0K]  vendor
 │   ├── [ 771]  autoload.php
 │   ├── [4.0K]  bin
 │   │   ├── [3.4K]  patch-type-declarations
@@ -62,7 +59,6 @@
 │   │   │   ├── [ 746]  CHANGELOG.md
 │   │   │   ├── [ 514]  composer.json
 │   │   │   ├── [1.1K]  LICENSE.txt
-│   │   │   ├── [ 546]  README.md
 │   │   │   └── [4.0K]  src
 │   │   │       ├── [ 162]  CacheException.php
 │   │   │       ├── [3.8K]  CacheItemInterface.php
@@ -71,7 +67,6 @@
 │   │   ├── [4.0K]  container
 │   │   │   ├── [ 655]  composer.json
 │   │   │   ├── [1.1K]  LICENSE
-│   │   │   ├── [ 578]  README.md
 │   │   │   └── [4.0K]  src
 │   │   │       ├── [ 184]  ContainerExceptionInterface.php
 │   │   │       ├── [1.0K]  ContainerInterface.php
@@ -79,7 +74,6 @@
 │   │   ├── [4.0K]  event-dispatcher
 │   │   │   ├── [ 560]  composer.json
 │   │   │   ├── [1.0K]  LICENSE
-│   │   │   ├── [ 325]  README.md
 │   │   │   └── [4.0K]  src
 │   │   │       ├── [ 431]  EventDispatcherInterface.php
 │   │   │       ├── [ 524]  ListenerProviderInterface.php
@@ -87,7 +81,6 @@
 │   │   └── [4.0K]  log
 │   │       ├── [ 555]  composer.json
 │   │       ├── [1.1K]  LICENSE
-│   │       ├── [1.3K]  README.md
 │   │       └── [4.0K]  src
 │   │           ├── [ 414]  AbstractLogger.php
 │   │           ├── [  96]  InvalidArgumentException.php
@@ -153,7 +146,6 @@
 │   │   │   │   └── [2.6K]  EarlyExpirationMessage.php
 │   │   │   ├── [ 455]  PruneableInterface.php
 │   │   │   ├── [7.6K]  Psr16Cache.php
-│   │   │   ├── [ 942]  README.md
 │   │   │   ├── [ 418]  ResettableInterface.php
 │   │   │   └── [4.0K]  Traits
 │   │   │       ├── [ 12K]  AbstractAdapterTrait.php
@@ -182,7 +174,6 @@
 │   │   │   ├── [ 946]  composer.json
 │   │   │   ├── [1.7K]  ItemInterface.php
 │   │   │   ├── [1.0K]  LICENSE
-│   │   │   ├── [ 326]  README.md
 │   │   │   └── [1011]  TagAwareCacheInterface.php
 │   │   ├── [4.0K]  config
 │   │   │   ├── [4.0K]  Builder
@@ -267,7 +258,6 @@
 │   │   │   │   ├── [ 680]  LoaderResolverInterface.php
 │   │   │   │   ├── [1.5K]  LoaderResolver.php
 │   │   │   │   └── [ 571]  ParamConfigurator.php
-│   │   │   ├── [ 596]  README.md
 │   │   │   ├── [4.0K]  Resource
 │   │   │   │   ├── [6.8K]  ClassExistenceResource.php
 │   │   │   │   ├── [1.5K]  ComposerResource.php
@@ -493,7 +483,6 @@
 │   │   │   │   ├── [2.3K]  ParameterBagInterface.php
 │   │   │   │   └── [8.9K]  ParameterBag.php
 │   │   │   ├── [ 601]  Parameter.php
-│   │   │   ├── [ 579]  README.md
 │   │   │   ├── [ 945]  Reference.php
 │   │   │   ├── [2.4K]  ReverseContainer.php
 │   │   │   ├── [5.4K]  ServiceLocator.php
@@ -505,8 +494,7 @@
 │   │   │   ├── [ 157]  CHANGELOG.md
 │   │   │   ├── [ 841]  composer.json
 │   │   │   ├── [1014]  function.php
-│   │   │   ├── [1.0K]  LICENSE
-│   │   │   └── [1.2K]  README.md
+│   │   │   └── [1.0K]  LICENSE
 │   │   ├── [4.0K]  error-handler
 │   │   │   ├── [2.0K]  BufferingLogger.php
 │   │   │   ├── [1007]  CHANGELOG.md
@@ -537,7 +525,6 @@
 │   │   │   ├── [4.0K]  Internal
 │   │   │   │   └── [ 58K]  TentativeTypes.php
 │   │   │   ├── [1.0K]  LICENSE
-│   │   │   ├── [1.3K]  README.md
 │   │   │   ├── [4.0K]  Resources
 │   │   │   │   ├── [4.0K]  assets
 │   │   │   │   │   ├── [4.0K]  css
@@ -586,15 +573,13 @@
 │   │   │   ├── [1.7K]  EventSubscriberInterface.php
 │   │   │   ├── [3.4K]  GenericEvent.php
 │   │   │   ├── [1.9K]  ImmutableEventDispatcher.php
-│   │   │   ├── [1.0K]  LICENSE
-│   │   │   └── [ 599]  README.md
+│   │   │   └── [1.0K]  LICENSE
 │   │   ├── [4.0K]  event-dispatcher-contracts
 │   │   │   ├── [ 157]  CHANGELOG.md
 │   │   │   ├── [ 986]  composer.json
 │   │   │   ├── [1.0K]  EventDispatcherInterface.php
 │   │   │   ├── [1.4K]  Event.php
-│   │   │   ├── [1.0K]  LICENSE
-│   │   │   └── [ 346]  README.md
+│   │   │   └── [1.0K]  LICENSE
 │   │   ├── [4.0K]  filesystem
 │   │   │   ├── [1.6K]  CHANGELOG.md
 │   │   │   ├── [ 840]  composer.json
@@ -607,8 +592,7 @@
 │   │   │   │   └── [ 426]  RuntimeException.php
 │   │   │   ├── [ 29K]  Filesystem.php
 │   │   │   ├── [1.0K]  LICENSE
-│   │   │   ├── [ 25K]  Path.php
-│   │   │   └── [ 493]  README.md
+│   │   │   └── [ 25K]  Path.php
 │   │   ├── [4.0K]  finder
 │   │   │   ├── [2.5K]  CHANGELOG.md
 │   │   │   ├── [4.0K]  Comparator
@@ -638,7 +622,6 @@
 │   │   │   │   ├── [4.5K]  SortableIterator.php
 │   │   │   │   └── [4.6K]  VcsIgnoredFilterIterator.php
 │   │   │   ├── [1.0K]  LICENSE
-│   │   │   ├── [ 495]  README.md
 │   │   │   └── [1.8K]  SplFileInfo.php
 │   │   ├── [4.0K]  framework-bundle
 │   │   │   ├── [4.0K]  CacheWarmer
@@ -726,7 +709,6 @@
 │   │   │   │   └── [8.0K]  MicroKernelTrait.php
 │   │   │   ├── [7.1K]  KernelBrowser.php
 │   │   │   ├── [1.0K]  LICENSE
-│   │   │   ├── [ 545]  README.md
 │   │   │   ├── [4.0K]  Resources
 │   │   │   │   ├── [4.0K]  bin
 │   │   │   │   │   └── [ 851]  check-unused-known-tags.php
@@ -869,7 +851,6 @@
 │   │   │   │   ├── [2.4K]  AbstractRequestRateLimiter.php
 │   │   │   │   ├── [1.1K]  PeekableRequestRateLimiterInterface.php
 │   │   │   │   └── [ 734]  RequestRateLimiterInterface.php
-│   │   │   ├── [ 526]  README.md
 │   │   │   ├── [2.6K]  RedirectResponse.php
 │   │   │   ├── [4.0K]  RequestMatcher
 │   │   │   │   ├── [1.1K]  AttributesRequestMatcher.php
@@ -1131,7 +1112,6 @@
 │   │   │   │   ├── [5.0K]  Profile.php
 │   │   │   │   ├── [6.6K]  Profiler.php
 │   │   │   │   └── [1.7K]  ProfilerStorageInterface.php
-│   │   │   ├── [ 676]  README.md
 │   │   │   ├── [ 793]  RebootableInterface.php
 │   │   │   ├── [4.0K]  Resources
 │   │   │   │   └── [ 39K]  welcome.html.php
@@ -1141,15 +1121,13 @@
 │   │   │   ├── [1.6K]  bootstrap.php
 │   │   │   ├── [ 961]  composer.json
 │   │   │   ├── [6.4K]  Ctype.php
-│   │   │   ├── [1.0K]  LICENSE
-│   │   │   └── [ 350]  README.md
+│   │   │   └── [1.0K]  LICENSE
 │   │   ├── [4.0K]  polyfill-mbstring
 │   │   │   ├── [9.8K]  bootstrap80.php
 │   │   │   ├── [8.3K]  bootstrap.php
 │   │   │   ├── [ 984]  composer.json
 │   │   │   ├── [1.0K]  LICENSE
 │   │   │   ├── [ 35K]  Mbstring.php
-│   │   │   ├── [ 370]  README.md
 │   │   │   └── [4.0K]  Resources
 │   │   │       └── [4.0K]  unidata
 │   │   │           ├── [2.3K]  caseFolding.php
@@ -1161,7 +1139,6 @@
 │   │   │   ├── [ 916]  composer.json
 │   │   │   ├── [1.0K]  LICENSE
 │   │   │   ├── [ 710]  Php81.php
-│   │   │   ├── [ 673]  README.md
 │   │   │   └── [4.0K]  Resources
 │   │   │       └── [4.0K]  stubs
 │   │   │           ├── [1.4K]  CURLStringFile.php
@@ -1172,7 +1149,6 @@
 │   │   │   ├── [ 916]  composer.json
 │   │   │   ├── [1.0K]  LICENSE
 │   │   │   ├── [6.7K]  Php83.php
-│   │   │   ├── [1023]  README.md
 │   │   │   └── [4.0K]  Resources
 │   │   │       └── [4.0K]  stubs
 │   │   │           ├── [ 317]  DateError.php
@@ -1263,7 +1239,6 @@
 │   │   │   │   ├── [6.8K]  TraceableUrlMatcher.php
 │   │   │   │   ├── [1.3K]  UrlMatcherInterface.php
 │   │   │   │   └── [9.2K]  UrlMatcher.php
-│   │   │   ├── [1.9K]  README.md
 │   │   │   ├── [ 531]  RequestContextAwareInterface.php
 │   │   │   ├── [6.6K]  RequestContext.php
 │   │   │   ├── [4.0K]  Requirement
@@ -1282,7 +1257,6 @@
 │   │   │   ├── [ 157]  CHANGELOG.md
 │   │   │   ├── [1.1K]  composer.json
 │   │   │   ├── [1.0K]  LICENSE
-│   │   │   ├── [ 330]  README.md
 │   │   │   ├── [1.0K]  ResetInterface.php
 │   │   │   ├── [ 626]  ServiceCollectionInterface.php
 │   │   │   ├── [3.6K]  ServiceLocatorTrait.php
@@ -1298,7 +1272,6 @@
 │   │   │   ├── [1000]  composer.json
 │   │   │   ├── [1.0K]  LICENSE
 │   │   │   ├── [ 620]  LocaleAwareInterface.php
-│   │   │   ├── [ 338]  README.md
 │   │   │   ├── [4.0K]  Test
 │   │   │   │   └── [ 16K]  TranslatorTest.php
 │   │   │   ├── [ 458]  TranslatableInterface.php
@@ -1364,7 +1337,6 @@
 │   │   │   │   ├── [1.8K]  Scope.php
 │   │   │   │   ├── [3.6K]  TranslationDefaultDomainNodeVisitor.php
 │   │   │   │   └── [6.1K]  TranslationNodeVisitor.php
-│   │   │   ├── [ 434]  README.md
 │   │   │   ├── [4.0K]  Resources
 │   │   │   │   └── [4.0K]  views
 │   │   │   │       ├── [4.0K]  Email
@@ -1423,7 +1395,6 @@
 │   │   │   │   │   └── [1.9K]  EnvironmentConfigurator.php
 │   │   │   │   └── [9.2K]  TwigExtension.php
 │   │   │   ├── [1.0K]  LICENSE
-│   │   │   ├── [ 411]  README.md
 │   │   │   ├── [4.0K]  Resources
 │   │   │   │   └── [4.0K]  config
 │   │   │   │       ├── [1.0K]  console.php
@@ -1510,7 +1481,6 @@
 │   │   │   ├── [4.0K]  Exception
 │   │   │   │   └── [ 650]  ThrowingCasterException.php
 │   │   │   ├── [1.0K]  LICENSE
-│   │   │   ├── [ 607]  README.md
 │   │   │   ├── [4.0K]  Resources
 │   │   │   │   ├── [4.0K]  bin
 │   │   │   │   │   └── [2.1K]  var-dump-server
@@ -1550,7 +1520,6 @@
 │   │       ├── [ 12K]  LazyProxyTrait.php
 │   │       ├── [1.0K]  LICENSE
 │   │       ├── [ 18K]  ProxyHelper.php
-│   │       ├── [5.3K]  README.md
 │   │       └── [3.5K]  VarExporter.php
 │   └── [4.0K]  twig
 │       ├── [4.0K]  extra-bundle
@@ -1564,7 +1533,6 @@
 │       │   ├── [ 875]  LeagueCommonMarkConverterFactory.php
 │       │   ├── [1.0K]  LICENSE
 │       │   ├── [1.3K]  MissingExtensionSuggestor.php
-│       │   ├── [ 206]  README.md
 │       │   ├── [4.0K]  Resources
 │       │   │   └── [4.0K]  config
 │       │   │       ├── [1.6K]  cache.php
@@ -1827,5 +1795,5 @@
     ├── [2.2K]  tiere-in-der-vermittlung.html
     └── [2.1K]  tierschutzarbeit.html
 
-264 directories, 1557 files
-```
+264 directories, 1528 files
+[ydh@C01127 twig]$ 
