@@ -39,7 +39,7 @@
 │   ├── [  23]  header.html.twig
 │   └── [ 274]  start.html.twig
 ├── [ 739]  tsconfig.json
-├── [4.0K]  vendor
+├── [4.0K]  vendor                                  [kann mit 'composer install' erzeugt werden]
 │   ├── [ 771]  autoload.php
 │   ├── [4.0K]  bin
 │   │   ├── [3.4K]  patch-type-declarations
